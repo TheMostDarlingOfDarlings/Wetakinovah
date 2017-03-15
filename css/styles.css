@@ -1,5 +1,15 @@
 body {
-    background-color:#fff;
+    cursor:url(img/kawiihitler.gif);
+    background-image:url(img/grass.png);
+    color:#fff;
+}
+.main{
+    border-radius: 30px;
+    background-image:url(img/metal3.png);
+    color: white;
+}
+.bg{
+    background-color: black;
 }
 
 .col-md-12 > img{
@@ -9,6 +19,9 @@ body {
 .col-md-4 > img{
     margin: 0 auto;
 }
+img{
+    border-radius: 20px;
+}
 
 #image-wrapper{
     padding-bottom: 20px;
@@ -16,13 +29,21 @@ body {
 
 #header-text{
     text-align: right;
+    color: white;
+}
+#header-text > h1{
+    text-shadow: 2px 3px 0 #000;
+}
+#header-text > p{
+    text-shadow: 2px 1.5px 0 #000;
+    font-size: 24px;
 }
 #header-image{
     text-align: left;
     max-height: 50px;
 }
 #header-image > img{
-    max-width: 104px;
+    max-width: 130px;
 }
 
 .margino{
@@ -51,4 +72,24 @@ h3{
 }
 .modal-header{
     text-align: center;
+}
+.image-modal{
+    text-align:center;
+}
+.modal-footer{
+    text-align:center;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    color:#333333;
+}
+header{
+/*    background-color: white;*/
+    background-image: url(img/cheese-banner.png);
+    padding-bottom: 35px;
+    border-radius: 30px;
+}
+#modals{
+    color:black;
 }
