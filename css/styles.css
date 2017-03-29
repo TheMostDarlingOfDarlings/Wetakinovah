@@ -1,95 +1,98 @@
-body {
-    cursor:url(img/kawiihitler.gif);
-    background-image:url(img/grass.png);
-    color:#fff;
-}
-.main{
-    border-radius: 30px;
-    background-image:url(img/metal3.png);
-    color: white;
-}
-.bg{
-    background-color: black;
-}
+body  {
+    background-image: url(img/grass.png);
+    color: #fff;
+ }
 
-.col-md-12 > img{
+.main {
+    border-radius: 30px;
+    background-image: url(img/metal3.png);
+    color: white;
+ }
+
+.black-bg {
+    background-color:  black;
+ }
+
+.col-md-12 > img {
     max-width: 100%;
     margin: 0 auto; 
-}
-.col-md-4 > img{
+ }
+
+.col-md-4 > img {
     margin: 0 auto;
-}
-img{
+ }
+
+img {
     border-radius: 20px;
-}
+ }
 
-#image-wrapper{
+#image-wrapper {
     padding-bottom: 20px;
-}
+ }
 
-#header-text{
+#header-text {
     text-align: right;
     color: white;
-}
-#header-text > h1{
+ }
+
+#header-text > h1 {
     text-shadow: 2px 3px 0 #000;
-}
-#header-text > p{
+ }
+
+#header-text > p {
     text-shadow: 2px 1.5px 0 #000;
     font-size: 24px;
-}
-#header-image{
+ }
+
+#header-image {
     text-align: left;
     max-height: 50px;
-}
-#header-image > img{
+ }
+
+#header-image > img {
     max-width: 130px;
-}
+ }
 
-.margino{
-    margin: 0 auto;
+h3 {
+    text-align: center;
+ }
+
+.col-md-4 > p {
+    text-align: center;
+ }
+
+.modal-img {
     max-width: 100%;
-    max-height: 100%;
-}
-.invis{
-    background-color: none;
-    color:none;
-    border:none;
-}
+ }
 
-h3{
-    text-align: center;
-}
-.col-md-4 > p{
-    text-align: center;
-}
+.row {
+    max-width: 1280px;
+ }
 
-.mod-img{
-    max-width: 100%;
-}
-.row{
-    max-width:1280px;
-}
-.modal-header{
+.modal-header {
     text-align: center;
-}
-.image-modal{
-    text-align:center;
-}
-.modal-footer{
-    text-align:center;
-}
-footer{
+ }
+
+.image-modal {
+    text-align: center;
+ }
+
+.modal-footer {
+    text-align: center;
+ }
+
+footer {
     background-color: gray;
     text-align: center;
-    color:#333333;
-}
-header{
-/*    background-color: white;*/
+    color: #333333;
+ }
+
+header {
     background-image: url(img/cheese-banner.png);
     padding-bottom: 35px;
     border-radius: 30px;
-}
-#modals{
-    color:black;
-}
+ }
+
+#modals {
+    color: black;
+ }
